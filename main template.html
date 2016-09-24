@@ -23,22 +23,26 @@
 		  width: 100%;
 		  background-color: #222;
 		  height: 30px;
-		  /* Set the fixed height of the footer here */
 		}
 
 		.darkWell{
-			background: #222;
+			background: #2C3E50;
 			color: white;
+		}
+		.setWidth{
+			width: 150px;
 		}
 	</style>
 </head>
 <body>
 <div class="container">
-	<div class="well well-lg" style="background: #EEEEEE">
+<div class="well well-lg" style="background: #EEEEEE">
+
 	<div class="jumbotron" style="background: url(jbtbg.jpg);">
 		<h1>Sphar.io <small>By Jonathan Sphar</small></h1>
 		<p>A personal repository for my projects and demos</p>
 	</div>	
+
 	<div class="alert alert-warning fade in">
 		<a href="#" class="close" data-dismiss="alert">&times;</a>
 		This page is currently under construction	
@@ -49,26 +53,32 @@
 		<li><a href="contact.html">Contact Me</a></li>
 		<li><a href="about.hml">About</a></li>
 	</ul>
-	<br>
-	<div class="row text-center">
-		<div class="col-md-4">
-			<div class="well darkWell">Add project</div>
-		</div>
-		<div class="col-md-4"><div class="well darkWell">Add project</div></div>
-		<div class="col-md-4"><div class="well darkWell">Add project</div></div>
-	</div>
-	<div class="row text-center">
-		<div class="col-md-4"><div class="well darkWell">Add project</div></div>
-		<div class="col-md-4"><div class="well darkWell">Add project</div></div>
-		<div class="col-md-4"><div class="well darkWell">Add project</div></div>
-	</div>
-	<div class="row text-center">
-		<div class="col-md-4"><div class="well darkWell">Add project</div></div>
-		<div class="col-md-4"><div class="well darkWell">Add project</div></div>
-		<div class="col-md-4"><div class="well darkWell">Add project</div></div>
-	</div>
-	</div>
 
+	<br>
+	<!-- Project 1 -->
+	<div class="well well-lg darkWell">
+		<div class="row">
+			<div class="col-xs-6 text-center">
+				<img src="#" style="height:50%;width:50%">
+			</div>
+			<div class="col-xs-6 text-center">
+				<!-- Content -->
+				<h4>Project Title &nbsp;<small>languages and frameworks</small></h4>
+				<p>
+					Description of project
+				</p>
+					<a href="#" class="btn btn-default setWidth">
+					<span class="glyphicon glyphicon-play">&nbsp;</span>Open
+					</a>
+					<a href="#" class="btn btn-info setWidth">
+					<span class="glyphicon glyphicon-new-window">&nbsp;</span>Github
+					</a>
+			<!-- end of content -->
+			</div>
+		</div>
+	</div>
+	<!-- End of project 1 -->
+</div>
 </div>
 
 <footer class="footer navbar-fixed-bottom">

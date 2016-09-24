@@ -1,0 +1,4 @@
+-create a set of templates
+-Update layout for projects on homepage
+	-gifs/pictures
+	-add more descriptive text

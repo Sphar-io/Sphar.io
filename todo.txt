@@ -1,4 +1,7 @@
 -create a set of templates
+	-Home page*
+	-Project page
 -Update layout for projects on homepage
 	-gifs/pictures
 	-add more descriptive text
+-Fix jumbotron background image
